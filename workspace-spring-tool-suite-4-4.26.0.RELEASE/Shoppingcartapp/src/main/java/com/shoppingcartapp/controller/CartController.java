@@ -54,8 +54,6 @@ public class CartController {
     @ResponseStatus(OK)
     public Double getCartTotal(@PathVariable Long cartId) {
         return cartService.getCartTotal(cartId);
-    }
-
-    // Additional methods for listing all carts, modifying cart details, etc. can be added here.
+    } 
 
 }
