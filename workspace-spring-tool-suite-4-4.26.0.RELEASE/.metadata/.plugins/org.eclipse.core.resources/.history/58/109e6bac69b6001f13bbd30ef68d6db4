@@ -1,0 +1,9 @@
+spring.application.name=Shoppingcartapp
+
+server:
+  port: 8222
+
+ 
+debug=false
+
+logging.level.org.springframework=DEBUG

@@ -1,0 +1,35 @@
+package com.example.shoppingcart.service;
+
+import com.example.shoppingcart.entity.Cart;
+import com.example.shoppingcart.entity.CartItem;
+import com.example.shoppingcart.exception.ResourceNotFoundException;
+import com.example.shoppingcart.repository.CartRepository;
+import org.springframework.stereotype.Service;
+
+@Service
+public class CartService {
+
+    private final CartRepository cartRepository;
+
+    public CartService(CartRepository cartRepository) {
+        this.cartRepository = cartRepository;
+    }
+
+    public Cart getCartById(Long id) {
+        return cartRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Cart not found with id: " + id));
+    }
+
+    public Cart addItemToCart(Long cartId, CartItem item) {
+        Cart cart = getCartById(cartId);
+        cart.addItem(item);
+        cart.calculateTotal();
+        return cartRepository.save(cart);
+    }
+
+    public Cart removeItemFromCart(Long cartId, Long itemId) {
+        Cart cart = getCartById(cartId);
+        cart.getItems().removeIf(item -> item.getId().equals(itemId));
+        cart.calculateTotal();
+        return cartRepository.save(cart);
+    }
+}

@@ -1,0 +1,7 @@
+spring.application.name=Shoppingcartapp
+
+server:
+  port: 8222
+
+ 
+ spring.main.debug=true

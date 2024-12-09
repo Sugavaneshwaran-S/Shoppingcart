@@ -1,0 +1,5 @@
+package com.shoppingcartapp.exception;
+
+public class GlobalExceptionHandler {
+
+}

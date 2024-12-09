@@ -1,0 +1,68 @@
+package com.example.service;
+
+import com.example.entity.Cart;
+import com.example.entity.CartItem;
+import com.example.exception.ResourceNotFoundException;
+import com.example.repository.CartRepository;
+import org.springframework.stereotype.Service;
+
+import java.util.Optional;
+
+@Service
+public class CartService {
+
+    private final CartRepository cartRepository;
+
+    public CartService(CartRepository cartRepository) {
+        this.cartRepository = cartRepository;
+    }
+
+    // Create a new cart
+    public Cart createCart(Cart cart) {
+        cart.setTotalPrice(0.0); // Ensure the total price is initialized
+        return cartRepository.save(cart);
+    }
+
+    // Get a cart by ID
+    public Cart getCartById(Long cartId) {
+        return cartRepository.findById(cartId)
+                .orElseThrow(() -> new ResourceNotFoundException("Cart not found with id: " + cartId));
+    }
+
+    // Add an item to a cart
+    public Cart addItemToCart(Long cartId, CartItem cartItem) {
+        Cart cart = getCartById(cartId); // Fetch the cart or throw exception
+
+        // Associate the cart item with the cart
+        cartItem.setCart(cart);
+        cart.getItems().add(cartItem);
+
+        // Update the total price of the cart
+        updateCartTotalPrice(cart);
+
+        return cartRepository.save(cart); // Save and return the updated cart
+    }
+
+    // Remove an item from a cart
+    public Cart removeItemFromCart(Long cartId, Long cartItemId) {
+        Cart cart = getCartById(cartId);
+
+        boolean removed = cart.getItems().removeIf(item -> item.getId().equals(cartItemId));
+        if (!removed) {
+            throw new ResourceNotFoundException("CartItem not found with id: " + cartItemId);
+        }
+
+        // Update the total price of the cart
+        updateCartTotalPrice(cart);
+
+        return cartRepository.save(cart); // Save and return the updated cart
+    }
+
+    // Helper method to update the total price of the cart
+    private void updateCartTotalPrice(Cart cart) {
+        double totalPrice = cart.getItems().stream()
+                .mapToDouble(item -> item.getPrice() * item.getQuantity())
+                .sum();
+        cart.setTotalPrice(totalPrice);
+    }
+}

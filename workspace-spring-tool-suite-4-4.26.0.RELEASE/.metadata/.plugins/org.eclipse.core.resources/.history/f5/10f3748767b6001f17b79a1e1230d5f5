@@ -1,0 +1,87 @@
+package com.example.shoppingcart.controller;
+
+import static org.springframework.http.HttpStatus.CREATED;
+import static org.springframework.http.HttpStatus.NO_CONTENT;
+import static org.springframework.http.HttpStatus.OK;
+
+import java.util.Map;
+
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.shoppingcartapp.model.Cart;
+import com.shoppingcartapp.model.CartItem;
+import com.shoppingcartapp.service.CartService;
+
+@RestController
+@RequestMapping("/api/v1/carts")
+public class CartController {
+
+    private final CartService cartService;
+
+    public CartController(CartService cartService) {
+        this.cartService = cartService;
+    }
+
+    // Create a new cart
+    @PostMapping(consumes = {"application/json"})
+    @ResponseStatus(CREATED)
+    public Cart createCart(@RequestBody @Validated Cart cart) {
+        return cartService.createCart(cart);
+    }
+
+    // Get all carts with optional pagination and sorting
+    @GetMapping(produces = {"application/json"})
+    @ResponseStatus(OK)
+    public Map<String, Object> fetchAllCarts(
+            @RequestParam(name = "page", required = false, defaultValue = "1") int page,
+            @RequestParam(name = "size", required = false, defaultValue = "10") int size,
+            @RequestParam(name = "sort", required = false, defaultValue = "customerName") String sortField,
+            @RequestParam(name = "direction", required = false, defaultValue = "asc") String sortDirection) {
+        return cartService.fetchAllCarts(page, size, sortField, sortDirection);
+    }
+
+    // Get cart by ID
+    @GetMapping(value = "/{id}", produces = {"application/json"})
+    @ResponseStatus(OK)
+    public Cart fetchCartById(@PathVariable Long id) {
+        return cartService.getCartById(id);
+    }
+
+    // Add an item to a cart
+    @PostMapping(value = "/{id}/items", consumes = {"application/json"})
+    @ResponseStatus(CREATED)
+    public Cart addItemToCart(@PathVariable Long id, @RequestBody @Validated CartItem cartItem) {
+        return cartService.addItemToCart(id, cartItem);
+    }
+
+    // Remove an item from a cart
+    @DeleteMapping(value = "/{cartId}/items/{itemId}")
+    @ResponseStatus(NO_CONTENT)
+    public void removeItemFromCart(@PathVariable Long cartId, @PathVariable Long itemId) {
+        cartService.removeItemFromCart(cartId, itemId);
+    }
+
+    // Update cart total price
+    @PutMapping(value = "/{id}/calculate", produces = {"application/json"})
+    @ResponseStatus(OK)
+    public Cart calculateCartTotal(@PathVariable Long id) {
+        return cartService.calculateTotalPrice(id);
+    }
+
+    // Delete a cart by ID
+    @DeleteMapping(value = "/{id}")
+    @ResponseStatus(NO_CONTENT)
+    public void deleteCartById(@PathVariable Long id) {
+        cartService.deleteCartById(id);
+    }
+}

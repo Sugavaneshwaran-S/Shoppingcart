@@ -1,0 +1,685 @@
+2024-12-09 23:48:43,415 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2024-12-09 23:51:32,430 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shoppingcartapp:Shoppingcartapp:0.0.1-SNAPSHOT @ C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\pom.xml.
+2024-12-09 23:51:35,241 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shoppingcartapp/src/main/java
+2024-12-09 23:51:35,243 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/main/resources
+2024-12-09 23:51:35,248 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/main/resources
+2024-12-09 23:51:35,252 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shoppingcartapp/src/test/java
+2024-12-09 23:51:35,253 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/test/resources
+2024-12-09 23:51:35,823 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2024-12-09 23:51:35,827 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-12-09 23:51:36,217 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shoppingcartapp:Shoppingcartapp:0.0.1-SNAPSHOT @ C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\pom.xml.
+2024-12-09 23:51:36,637 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shoppingcartapp/src/main/java
+2024-12-09 23:51:36,638 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/main/resources
+2024-12-09 23:51:36,639 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/main/resources
+2024-12-09 23:51:36,640 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shoppingcartapp/src/test/java
+2024-12-09 23:51:36,641 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/test/resources
+2024-12-09 23:51:36,945 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-12-09 23:51:38,180 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-09 23:51:38,200 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-09 23:51:38,219 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-09 23:56:53,413 [Worker-3: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: Unrecognised tag: 'dependency' (position: START_TAG seen ...</dependencies>\n\n\t\t<dependency>... @65:15) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognised tag: 'dependency' (position: START_TAG seen ...</dependencies>\n\n\t\t<dependency>... @65:15) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkUnknownElement(MavenXpp3Reader.java:181)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2392)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 common frames omitted
+2024-12-09 23:56:54,590 [Worker-1: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: Unrecognised tag: 'dependency' (position: START_TAG seen ...</dependencies>\n\n\t\t<dependency>... @65:15) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognised tag: 'dependency' (position: START_TAG seen ...</dependencies>\n\n\t\t<dependency>... @65:15) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkUnknownElement(MavenXpp3Reader.java:181)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2392)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 common frames omitted
+2024-12-09 23:57:21,201 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shoppingcartapp:Shoppingcartapp:0.0.1-SNAPSHOT @ C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\pom.xml.
+2024-12-09 23:57:21,634 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-09 23:57:21,661 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-09 23:57:21,666 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-09 23:57:21,959 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-09 23:57:21,960 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-09 23:57:21,964 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-09 23:57:37,310 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-12-09 23:57:37,663 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shoppingcartapp:Shoppingcartapp:0.0.1-SNAPSHOT @ C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\pom.xml.
+2024-12-09 23:57:37,929 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shoppingcartapp/src/main/java
+2024-12-09 23:57:37,930 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/main/resources
+2024-12-09 23:57:37,930 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/main/resources
+2024-12-09 23:57:37,931 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shoppingcartapp/src/test/java
+2024-12-09 23:57:37,932 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/test/resources
+2024-12-09 23:57:38,099 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-12-09 23:57:38,462 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-09 23:57:38,480 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-09 23:57:38,486 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-09 23:58:10,430 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-09 23:58:10,432 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-09 23:58:10,436 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-09 23:58:11,503 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-09 23:58:11,503 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-09 23:58:11,507 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:00:54,326 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:00:54,336 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:00:54,340 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:01:33,348 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:01:33,353 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:01:33,356 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:01:55,121 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:01:55,127 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:01:55,131 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:02:04,605 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:02:04,610 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:02:04,613 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:02:58,066 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:02:58,072 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:02:58,076 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:03:33,644 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:03:33,649 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:03:33,652 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:04:01,253 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:04:01,260 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:04:01,264 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:04:10,297 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:04:10,304 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:04:10,308 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:04:32,274 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:04:32,280 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:04:32,283 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:05:59,655 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:05:59,667 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:05:59,674 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:06:07,022 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:06:07,027 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:06:07,029 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:06:29,973 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:06:29,978 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:06:29,981 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:06:33,441 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:06:33,446 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:06:33,448 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:07:18,496 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:07:18,501 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:07:18,504 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:07:54,378 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:07:54,383 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:07:54,385 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:08:01,218 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:08:01,222 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:08:01,225 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:08:45,421 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:08:45,426 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:08:45,429 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:09:14,305 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:09:14,311 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:09:14,313 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:09:19,941 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:09:19,946 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:09:19,949 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:09:46,624 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:09:46,629 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:09:46,632 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:10:25,437 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:10:25,443 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:10:25,447 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:10:39,024 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:10:39,030 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:10:39,033 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:10:52,110 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:10:52,113 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:10:52,117 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-10 00:11:15,803 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:11:15,807 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:11:15,810 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-10 00:11:20,888 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:11:20,893 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:11:20,896 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-10 00:11:27,798 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:11:27,803 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:11:27,806 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-10 00:11:38,318 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:11:38,333 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:11:38,339 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-10 00:12:11,616 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:12:11,621 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:12:11,624 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-10 00:12:17,741 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:12:17,745 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:12:17,748 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-10 00:12:29,652 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:12:29,658 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:12:29,660 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-10 00:16:15,395 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:16:15,400 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:16:15,403 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-10 00:16:55,110 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:16:55,115 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:16:55,117 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-10 00:18:50,292 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:18:50,297 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:18:50,300 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-10 00:19:27,338 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:19:27,343 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:19:27,346 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-10 00:19:36,264 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:19:36,269 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:19:36,272 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-10 00:20:17,192 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-12-10 00:20:17,735 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shoppingcartapp:Shoppingcartapp:0.0.1-SNAPSHOT @ C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\pom.xml.
+2024-12-10 00:20:18,073 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shoppingcartapp/src/main/java
+2024-12-10 00:20:18,074 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/main/resources
+2024-12-10 00:20:18,074 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/main/resources
+2024-12-10 00:20:18,078 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shoppingcartapp/src/test/java
+2024-12-10 00:20:18,079 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/test/resources
+2024-12-10 00:20:18,325 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-12-10 00:20:18,654 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:20:18,674 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:20:18,679 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-10 00:21:02,907 [Worker-25: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shoppingcartapp:Shoppingcartapp:0.0.1-SNAPSHOT @ C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\pom.xml.
+2024-12-10 00:21:03,034 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:21:03,035 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:21:03,040 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-10 00:21:04,203 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:21:04,221 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:21:04,223 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-10 00:21:09,463 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-12-10 00:21:09,770 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shoppingcartapp:Shoppingcartapp:0.0.1-SNAPSHOT @ C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\pom.xml.
+2024-12-10 00:21:09,808 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shoppingcartapp/src/main/java
+2024-12-10 00:21:09,809 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/main/resources
+2024-12-10 00:21:09,809 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/main/resources
+2024-12-10 00:21:09,810 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shoppingcartapp/src/test/java
+2024-12-10 00:21:09,810 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/test/resources
+2024-12-10 00:21:09,913 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-12-10 00:21:10,131 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:21:10,145 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:21:10,149 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-10 00:22:21,466 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:22:21,473 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:22:21,476 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-10 00:23:07,598 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-10 00:23:38,043 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.classpathio:order-microservice:0.0.1-SNAPSHOT @ D:\SpringBoot training\order-microservice-app\pom.xml.
+2024-12-10 00:23:38,741 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.classpathio:order-microservice:0.0.1-SNAPSHOT @ D:\SpringBoot training\order-microservice-app\pom.xml.
+2024-12-10 00:23:40,155 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-12-10 00:23:40,178 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:23:40,183 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SpringBoot training\order-microservice-app\src\test\resources
+2024-12-10 00:23:42,618 [Worker-20: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.classpathio:order-microservice:0.0.1-SNAPSHOT @ D:\SpringBoot training\order-microservice-app\pom.xml.
+2024-12-10 00:23:42,696 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-12-10 00:23:42,720 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:23:42,725 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\SpringBoot training\order-microservice-app\src\test\resources
+2024-12-10 00:24:05,708 [Worker-7: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shoppingcartapp:Shoppingcartapp:0.0.1-SNAPSHOT @ C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\pom.xml.
+2024-12-10 00:24:06,462 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shoppingcartapp/src/main/java
+2024-12-10 00:24:06,464 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/main/resources
+2024-12-10 00:24:06,469 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/main/resources
+2024-12-10 00:24:06,473 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shoppingcartapp/src/test/java
+2024-12-10 00:24:06,475 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/test/resources
+2024-12-10 00:24:06,686 [Worker-7: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2024-12-10 00:24:06,690 [Worker-7: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-12-10 00:24:07,111 [Worker-7: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shoppingcartapp:Shoppingcartapp:0.0.1-SNAPSHOT @ C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\pom.xml.
+2024-12-10 00:24:07,414 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shoppingcartapp/src/main/java
+2024-12-10 00:24:07,415 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/main/resources
+2024-12-10 00:24:07,416 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/main/resources
+2024-12-10 00:24:07,417 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shoppingcartapp/src/test/java
+2024-12-10 00:24:07,418 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/test/resources
+2024-12-10 00:24:07,575 [Worker-7: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-12-10 00:24:07,885 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:24:07,909 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:24:07,914 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:25:22,353 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:25:22,360 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:25:22,363 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:25:39,192 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shoppingcartapp:Shoppingcartapp:0.0.1-SNAPSHOT @ C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\pom.xml.
+2024-12-10 00:25:39,627 [Worker-4: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier  to /order-microservice-app/target/classes
+2024-12-10 00:25:40,006 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:25:40,007 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:25:40,011 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:25:41,152 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:25:41,174 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:25:41,178 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:26:05,005 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:26:05,012 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:26:05,015 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:26:19,108 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:26:19,113 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:26:19,117 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:26:40,228 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:26:40,234 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:26:40,237 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:28:12,545 [Worker-21: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shoppingcartapp:Shoppingcartapp:0.0.1-SNAPSHOT @ C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\pom.xml.
+2024-12-10 00:28:12,919 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier  to /order-microservice-app/target/classes
+2024-12-10 00:28:13,233 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:28:13,233 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:28:13,237 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:28:14,430 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:28:14,446 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:28:14,450 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:28:20,256 [Worker-9: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-12-10 00:28:20,574 [Worker-9: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shoppingcartapp:Shoppingcartapp:0.0.1-SNAPSHOT @ C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\pom.xml.
+2024-12-10 00:28:20,943 [Worker-9: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier  to /order-microservice-app/target/classes
+2024-12-10 00:28:21,183 [Worker-9: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shoppingcartapp/src/main/java
+2024-12-10 00:28:21,184 [Worker-9: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/main/resources
+2024-12-10 00:28:21,185 [Worker-9: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/main/resources
+2024-12-10 00:28:21,186 [Worker-9: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shoppingcartapp/src/test/java
+2024-12-10 00:28:21,187 [Worker-9: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/test/resources
+2024-12-10 00:28:21,440 [Worker-9: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-12-10 00:28:21,689 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:28:21,701 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:28:21,705 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:28:37,905 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:28:37,910 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:28:37,913 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:28:47,708 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:28:47,713 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:28:47,716 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:28:55,657 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:28:55,662 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:28:55,664 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:30:48,795 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:30:48,801 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:30:48,804 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:31:07,428 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:31:07,433 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:31:07,436 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:31:25,436 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:31:25,443 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:31:25,447 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:31:29,685 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:31:29,693 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:31:29,695 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:31:38,147 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:31:38,153 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:31:38,155 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:32:02,164 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:32:02,169 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:32:02,172 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:32:06,024 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:32:06,029 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:32:06,031 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:32:27,039 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:32:27,044 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:32:27,047 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:32:56,358 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:32:56,364 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:32:56,368 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:33:06,899 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:33:06,903 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:33:06,906 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:33:17,760 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:33:17,766 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:33:17,768 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:33:59,892 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:33:59,896 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:33:59,898 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:34:23,700 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:34:23,705 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:34:23,707 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:36:44,344 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:36:44,351 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:36:44,353 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:37:10,789 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:37:10,794 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:37:10,796 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:38:29,164 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:38:29,169 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:38:29,171 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:41:30,736 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:41:30,742 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:41:30,745 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:42:16,889 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:42:16,895 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:42:16,897 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:42:47,008 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:42:47,013 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:42:47,016 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:42:53,274 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:42:53,280 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:42:53,282 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:42:57,270 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:42:57,274 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:42:57,277 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:43:08,476 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:43:08,483 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:43:08,486 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:43:26,123 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:43:26,129 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:43:26,132 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:43:48,595 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:43:48,600 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:43:48,602 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:44:01,926 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:44:01,928 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:44:01,930 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:44:07,053 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:44:07,054 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:44:07,057 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:44:13,480 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:44:13,485 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:44:13,488 [main] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:45:45,631 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:45:45,637 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:45:45,639 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:45:58,776 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:45:58,781 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:45:58,783 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:46:41,359 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:46:41,364 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:46:41,366 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:49:00,861 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:49:00,866 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:49:00,868 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:49:13,465 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:49:13,470 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:49:13,472 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:50:55,115 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:50:55,119 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:50:55,122 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:51:07,080 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:51:07,086 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:51:07,088 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:51:15,144 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:51:15,149 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:51:15,151 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:52:20,310 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:52:20,316 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:52:20,319 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:55:10,084 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:55:10,089 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:55:10,091 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:56:16,969 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:56:16,974 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:56:16,976 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:56:31,924 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:56:31,929 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:56:31,932 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:56:50,284 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:56:50,290 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:56:50,292 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:57:24,348 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:57:24,353 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:57:24,355 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 00:59:32,987 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 00:59:32,992 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 00:59:32,994 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:00:15,375 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:00:15,380 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:00:15,383 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:00:37,081 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:00:37,086 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:00:37,088 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:01:15,832 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:01:15,839 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:01:15,841 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:01:38,728 [Worker-32: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:01:38,852 [Worker-32: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:01:38,968 [Worker-32: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:07:12,068 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:07:12,073 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:07:12,076 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:07:22,389 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:07:22,394 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:07:22,397 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:07:35,248 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:07:35,253 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:07:35,256 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:07:46,210 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:07:46,215 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:07:46,218 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:08:30,868 [Worker-41: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:08:30,986 [Worker-41: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:08:31,092 [Worker-41: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:12:23,122 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:12:23,132 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:12:23,136 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:12:42,102 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:12:42,112 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:12:42,117 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:12:49,214 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:12:49,227 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:12:49,233 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:13:05,281 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:13:05,291 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:13:05,296 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:13:26,942 [Worker-46: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:13:27,423 [Worker-46: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:13:27,681 [Worker-46: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:14:23,499 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:14:23,509 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:14:23,515 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:14:43,514 [Worker-21: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:14:43,774 [Worker-21: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:14:44,043 [Worker-21: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:15:20,282 [Worker-39: Launching Shoppingcartapp - ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:15:20,532 [Worker-39: Launching Shoppingcartapp - ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:15:20,815 [Worker-39: Launching Shoppingcartapp - ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:16:43,208 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-10 01:16:54,550 [Worker-6: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier  to /order-microservice-app/target/classes
+2024-12-10 01:17:04,685 [Worker-9: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:17:04,937 [Worker-9: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:17:05,200 [Worker-9: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:17:45,221 [Worker-17: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:17:45,558 [Worker-17: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:17:45,873 [Worker-17: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:19:25,553 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:19:25,597 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:19:25,610 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:19:29,027 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:19:29,040 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:19:29,047 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:19:40,562 [Worker-8: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:19:40,847 [Worker-8: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:19:41,092 [Worker-8: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:20:46,058 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:20:46,073 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:20:46,083 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:20:55,783 [Worker-4: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:20:56,103 [Worker-4: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:20:56,370 [Worker-4: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:21:31,679 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:21:31,691 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:21:31,697 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:21:41,638 [Worker-0: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:21:41,899 [Worker-0: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:21:42,146 [Worker-0: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:23:12,562 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:23:12,573 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:23:12,582 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:23:24,404 [Worker-14: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:23:24,734 [Worker-14: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:23:24,968 [Worker-14: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:24:53,167 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:24:53,179 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:24:53,188 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:25:06,695 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:25:06,707 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:25:06,716 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:25:24,457 [Worker-14: Launching ShoppingcartappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:25:24,467 [Worker-14: Launching ShoppingcartappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:25:24,475 [Worker-14: Launching ShoppingcartappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:25:24,830 [Worker-14: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:25:25,138 [Worker-14: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:25:25,402 [Worker-14: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:26:29,394 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-10 01:27:40,548 [Worker-1: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier  to /order-microservice-app/target/classes
+2024-12-10 01:27:57,399 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:27:57,447 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:27:57,457 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:28:02,408 [Worker-1: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:28:02,678 [Worker-1: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:28:02,950 [Worker-1: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:29:11,149 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:29:11,158 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:29:11,165 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:29:23,409 [Worker-12: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:29:23,721 [Worker-12: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:29:24,028 [Worker-12: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:29:59,904 [Worker-3: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:30:00,164 [Worker-3: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:30:00,407 [Worker-3: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:30:07,735 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:30:07,742 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:30:07,750 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:31:46,374 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:31:46,388 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:31:46,399 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:31:52,462 [Worker-17: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:31:52,715 [Worker-17: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:31:52,976 [Worker-17: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:35:39,580 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:35:39,593 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:35:39,605 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:35:47,177 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:35:47,187 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:35:47,198 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:35:51,394 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:35:51,406 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:35:51,414 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:35:58,491 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:35:58,503 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:35:58,513 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:36:53,877 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:36:53,887 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:36:53,894 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:36:59,239 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:36:59,252 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:36:59,260 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:37:04,543 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:37:04,554 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:37:04,562 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:37:33,436 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:37:33,445 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:37:33,454 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:37:47,075 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:37:47,088 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:37:47,096 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:37:54,772 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:37:54,785 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:37:54,791 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:38:14,290 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:38:14,302 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:38:14,308 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:38:29,740 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:38:29,752 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:38:29,761 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:38:36,906 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:38:36,917 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:38:36,927 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:38:43,968 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:38:43,979 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:38:43,986 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:38:52,594 [Worker-10: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:38:52,884 [Worker-10: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:38:53,152 [Worker-10: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:40:45,591 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:40:45,601 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:40:45,607 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:40:53,616 [Worker-20: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:40:53,869 [Worker-20: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:40:54,106 [Worker-20: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:41:24,128 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:41:24,137 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:41:24,144 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:41:30,123 [Worker-28: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:41:30,373 [Worker-28: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:41:30,619 [Worker-28: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:42:16,770 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shoppingcartapp:Shoppingcartapp:0.0.1-SNAPSHOT @ C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\pom.xml.
+2024-12-10 01:42:17,757 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:42:17,758 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:42:17,766 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:42:19,164 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:42:19,192 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:42:19,199 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:42:34,119 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-12-10 01:42:34,907 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shoppingcartapp:Shoppingcartapp:0.0.1-SNAPSHOT @ C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\pom.xml.
+2024-12-10 01:42:35,781 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shoppingcartapp/src/main/java
+2024-12-10 01:42:35,786 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/main/resources
+2024-12-10 01:42:35,788 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/main/resources
+2024-12-10 01:42:35,789 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Shoppingcartapp/src/test/java
+2024-12-10 01:42:35,792 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Shoppingcartapp/src/test/resources
+2024-12-10 01:42:36,172 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2024-12-10 01:42:36,581 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:42:36,611 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:42:36,619 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:43:05,670 [Worker-25: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shoppingcartapp:Shoppingcartapp:0.0.1-SNAPSHOT @ C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\pom.xml.
+2024-12-10 01:43:06,549 [Worker-25: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier  to /order-microservice-app/target/classes
+2024-12-10 01:43:07,304 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:43:07,306 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:43:07,313 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:43:08,704 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:43:08,730 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:43:08,735 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:45:42,637 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:45:42,647 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:45:42,654 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:45:53,922 [Worker-30: Launching ShoppingcartappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:45:53,933 [Worker-30: Launching ShoppingcartappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:45:53,940 [Worker-30: Launching ShoppingcartappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:45:54,309 [Worker-30: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:45:54,631 [Worker-30: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:45:54,890 [Worker-30: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:47:01,954 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-10 01:47:01,966 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-10 01:47:01,974 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\src\test\resources
+2024-12-10 01:47:07,884 [Worker-25: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:47:08,144 [Worker-25: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:47:08,399 [Worker-25: Launching ShoppingcartappApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier null to /order-microservice-app/target/classes
+2024-12-10 01:48:00,183 [Worker-31: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.shoppingcartapp:Shoppingcartapp:0.0.1-SNAPSHOT @ C:\Users\Harley\Documents\workspace-spring-tool-suite-4-4.26.0.RELEASE\Shoppingcartapp\pom.xml.
+2024-12-10 01:48:01,005 [Worker-31: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/order-microservice-app: com.classpathio:order-microservice:0.0.1-SNAPSHOT with classifier  to /order-microservice-app/target/classes

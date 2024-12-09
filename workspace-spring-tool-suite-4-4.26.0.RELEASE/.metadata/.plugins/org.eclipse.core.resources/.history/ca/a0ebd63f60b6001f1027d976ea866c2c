@@ -1,0 +1,34 @@
+package com.example.shoppingcart.controller;
+
+import com.example.shoppingcart.entity.Cart;
+import com.example.shoppingcart.entity.CartItem;
+import com.example.shoppingcart.service.CartService;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping("/api/carts")
+public class CartController {
+
+    private final CartService cartService;
+
+    public CartController(CartService cartService) {
+        this.cartService = cartService;
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<Cart> getCart(@PathVariable Long id) {
+        return ResponseEntity.ok(cartService.getCartById(id));
+    }
+
+    @PostMapping("/{id}/items")
+    public ResponseEntity<Cart> addItemToCart(@PathVariable Long id, @RequestBody CartItem item) {
+        return ResponseEntity.status(HttpStatus.CREATED).body(cartService.addItemToCart(id, item));
+    }
+
+    @DeleteMapping("/{cartId}/items/{itemId}")
+    public ResponseEntity<Cart> removeItemFromCart(@PathVariable Long cartId, @PathVariable Long itemId) {
+        return ResponseEntity.ok(cartService.removeItemFromCart(cartId, itemId));
+    }
+}

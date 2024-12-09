@@ -1,0 +1,10 @@
+spring.application.name=Shoppingcartapp
+
+server:
+  port: 8222
+  
+app:
+  loadUser: true
+  ordercount: 100
+
+debug: true

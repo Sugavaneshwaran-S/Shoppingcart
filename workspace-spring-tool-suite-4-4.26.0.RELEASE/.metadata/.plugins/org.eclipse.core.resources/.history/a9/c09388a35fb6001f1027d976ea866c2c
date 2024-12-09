@@ -1,0 +1,32 @@
+package com.shoppingcartapp.model;
+
+import jakarta.persistence.*;
+
+@Entity
+public class CartItem {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String productName;
+
+    private int quantity;
+
+    private double price;
+
+    @ManyToOne
+    @JoinColumn(name = "cart_id")
+    private Cart cart;
+
+	public void setCart(Cart cart2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public int getPrice() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+    // Getters and Setters
+}
